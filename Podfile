@@ -7,6 +7,7 @@ target 'iOS-Tutorial-RxSwift' do
 
   # Pods for iOS-Tutorial-RxSwift
   pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'iOS-Tutorial-RxSwiftTests' do
     inherit! :search_paths

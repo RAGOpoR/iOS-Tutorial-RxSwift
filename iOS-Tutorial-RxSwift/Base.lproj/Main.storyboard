@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vgu-yv-grV">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -85,7 +86,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2t-15-hQ8">
-                                <rect key="frame" x="20" y="446" width="374" height="40"/>
+                                <rect key="frame" x="20" y="646" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="JeA-hF-M3O"/>
                                 </constraints>
@@ -94,9 +95,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle.stack.person.crop.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9ip-dR-Fyt">
-                                <rect key="frame" x="20" y="165.5" width="374" height="201"/>
+                                <rect key="frame" x="20" y="165.5" width="374" height="401"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="CCg-u5-6uM"/>
+                                    <constraint firstAttribute="height" constant="400" id="CCg-u5-6uM"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -264,7 +265,7 @@
         <image name="Olympian" width="2590" height="1960"/>
         <image name="SleepyCat" width="2184" height="1802"/>
         <image name="SunLoo" width="598" height="716"/>
-        <image name="rectangle.stack.person.crop.fill" catalog="system" width="32" height="32"/>
+        <image name="rectangle.stack.person.crop.fill" catalog="system" width="128" height="122"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
